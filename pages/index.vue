@@ -10,9 +10,9 @@
                     <div class="col col-12">
                         <div class="card">
                             <div class="card-body">
-                                <template v-if="Response.article_generated1">
-                                    <p v-html="Response.article_generated1" />
-                                </template>
+                                <p>
+                                    {{ Response.article_generated1 }}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -21,9 +21,9 @@
                     <div class="col col-12">
                         <div class="card">
                             <div class="card-body">
-                                <template v-if="Response.article_generated2">
-                                    <p v-html="Response.article_generated2" />
-                                </template>
+                                <p>
+                                    {{ Response.article_generated2 }}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -32,9 +32,9 @@
                     <div class="col col-12">
                         <div class="card">
                             <div class="card-body">
-                                <template v-if="Response.article_generated3">
-                                    <p v-html="Response.article_generated3" />
-                                </template>
+                                <p>
+                                    {{ Response.article_generated3 }}
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -2,8 +2,8 @@
 import webpack from 'webpack';
 
 export default {
-    ssr    : true,
-    target : 'server',
+    ssr    : false,
+    target : 'static',
     env    : {
     },
     // mode: 'universal',
