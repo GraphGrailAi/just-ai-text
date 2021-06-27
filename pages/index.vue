@@ -83,8 +83,8 @@
         data: () => ({
             num_word: 200,
             topk: 5,
-            text_start: 'test',//
-            key_words: 'test',
+            text_start: '',//
+            key_words: '',
             loader: false,
             Response: {}
         }),
