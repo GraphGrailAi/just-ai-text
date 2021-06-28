@@ -42,6 +42,7 @@ export default {
         ]
     },
     router : {
+        // base: process.env.BASE_PATH,
     },
     server : {
         host : '0.0.0.0',
@@ -145,12 +146,13 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
     axios : {
-        baseURL : (process.env.NODE_ENV === 'production') ? `http://${process.env.PROD_IP}/` : `http://localhost:${process.env.PORT}/`
+        // baseURL :
     },
     /*
   ** Build configuration
   */
     build : {
+        publicPath: process.env.BASE_PATH,
         filenames : {
             app   : ({ isDev }) => isDev ? '[name].js' : '[name][hash:7].js',
             chunk : ({ isDev }) => isDev ? '[name].js' : '[name][hash:7].js',
