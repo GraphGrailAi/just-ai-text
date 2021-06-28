@@ -1,0 +1,14 @@
+[
+  {
+    "text_start": "test from json",
+    "key_words": "test from json",
+    "num_words": 200,
+    "topk": 5
+  },
+  {
+    "text_start": "test 2 from json",
+    "key_words": "test 2 from json",
+    "num_words": 200,
+    "topk": 5
+  }
+]

@@ -71,16 +71,17 @@ export default {
         // 'owl.carousel/dist/assets/owl.carousel.min.css',
         // 'owl.carousel/dist/assets/owl.theme.default.min.css',
         // 'jquery-nice-select/css/nice-select.css',
-        '~/scss/styles.scss'
+        'element-ui/lib/theme-chalk/index.css',
+        '~/scss/styles.scss',
         // 'sweetalert2/dist/sweetalert2.min.css',
-        // 'element-ui/lib/theme-chalk/index.css'
+
     ],
     /*
   ** Plugins to load before mounting the App
   */
     plugins : [
         { src : '~plugins/bootstrap.js', ssr : false },
-        // { src : '~plugins/element.js', ssr : false },
+        { src : '~plugins/element.js', ssr : false },
         // { src: "~plugins/owl.carousel.js", ssr: false, },
         // { src : '~plugins/tinymce.js', ssr : false }
         // { src : '~plugins/filepond.js', ssr : false },
